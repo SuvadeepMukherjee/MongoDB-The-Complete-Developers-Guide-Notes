@@ -1,7 +1,12 @@
-What is MongoDb ? 
+#### What is MongoDb ? 
 
 - Mongodb means humongous (because it can store lots and lots of data)
 - Inside a database we have collections
 - Inside a collection we have documents 
 - These documents are stored in JSON(BSON) data format
 - MongoDB converts the JSON data format to BSON(binary version of JSON) which can be stored and querried more efficiently  
+
+#### The Key MongoDB Characteristics (and how they differ from SQL databases)
+
+- MongoDB is a NoSQL database which follows a completely different philosophy than SQL databases .In SQL based databases we normalize the data (Storing data in multiple tables and then use a lot of relations). MongoDB does not force a schema on us
+- No/Few Relations , Relational data needs to be merged together (This is where the speed , the flexibility and performance comes from)
