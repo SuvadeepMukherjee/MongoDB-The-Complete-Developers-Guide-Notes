@@ -27,3 +27,5 @@
 ![data-layer-0](../Assets/data-layer-0.png)
 
 ![data-layer-1](../Assets/data-layer-1.png)
+
+The default storage engine is called Wired Tiger
