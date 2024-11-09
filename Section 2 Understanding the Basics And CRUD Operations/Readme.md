@@ -16,3 +16,5 @@ To start the mongodb server , run `sudo mongod` in the terminal , in a new termi
 Every document  we enter gets a Unique Id (this is of type objectId)
 
 `db.flightdata.find().pretty()` => gets all the data from the flightdata collection in our flights database
+
+mongoDB uses binary json for storing data in the database, MongoDB drivers converts the json to bson (binary data , extends JSON types for example more detailed number types , efficient storage)
