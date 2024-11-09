@@ -1,0 +1,1 @@
+To get rid of a database we can simply load the database we want to get rid of with the `use databaseName` and then execute `db.dropDatabase()`
