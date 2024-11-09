@@ -21,3 +21,9 @@
 
 - Then open a new terminal with `Cmd + N ` and run the following command `mongosh`, The mongosh shell helps us interact with the database
 - To test that our server is working properly we can write `show dbs` in the mongosh terminal
+
+#### MongoDB + Clients : The Big Picture
+
+![data-layer-0](../Assets/data-layer-0.png)
+
+![data-layer-1](../Assets/data-layer-1.png)
