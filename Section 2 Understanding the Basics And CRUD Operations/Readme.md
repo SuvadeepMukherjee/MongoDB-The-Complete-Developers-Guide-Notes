@@ -18,3 +18,24 @@ Every document  we enter gets a Unique Id (this is of type objectId)
 `db.flightdata.find().pretty()` => gets all the data from the flightdata collection in our flights database
 
 mongoDB uses binary json for storing data in the database, MongoDB drivers converts the json to bson (binary data , extends JSON types for example more detailed number types , efficient storage)
+
+Create => 
+
+- `insertOne(data,options)` 
+- `insertMany(dat,options)`
+
+Read => 
+
+- `find(filter,options)`
+- `findOne(filter,options)`
+
+Update => 
+
+- `updateOne(filter, data,options)`
+- `updateMany(filter, data,options)`
+- `replaceOne(filter, data,options)`
+
+Delete => 
+
+- `deleteOne(filter,options)`
+- `deleteMany(filter,options)`
