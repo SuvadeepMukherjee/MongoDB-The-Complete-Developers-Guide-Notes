@@ -10,3 +10,7 @@
 
 - MongoDB is a NoSQL database which follows a completely different philosophy than SQL databases .In SQL based databases we normalize the data (Storing data in multiple tables and then use a lot of relations). MongoDB does not force a schema on us
 - No/Few Relations , Relational data needs to be merged together (This is where the speed , the flexibility and performance comes from)
+
+#### MongoDB Ecosystem 
+
+![ecosystem](../Assets/ecosystem.png)
