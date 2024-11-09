@@ -20,3 +20,4 @@
 - To run the mongoDb server run the folowing command at the bin folder of the mongoDB Server `mongod --dbpath /Users/suvadeep/Documents/mongodb/data --logpath /Users/suvadeep/Documents/mongodb/logs/mongo.log`
 
 - Then open a new terminal with `Cmd + N ` and run the following command `mongosh`, The mongosh shell helps us interact with the database
+- To test that our server is working properly we can write `show dbs` in the mongosh terminal
