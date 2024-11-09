@@ -39,3 +39,13 @@ Delete =>
 
 - `deleteOne(filter,options)`
 - `deleteMany(filter,options)`
+
+find() does not give us an array of all the documents in a collection , instead it sends us back a cursor object which is an object with a lot of metadata behind it that allows us to cycle through the results 
+
+Projection => allows us to select specific fields from a document to be returned in a query result
+
+Embedded documents  => Embedded documents simply means we can have a field in our document which could be another document .These documents can have other sub documents all in one overarching document in one collection (we can have up to 100 levels of nesting)
+
+The overall document size has to be below 16 MB
+
+Arrays => We can also have array as a value for the keys in the json , we can also have an array of embedded documents as the value 
