@@ -15,3 +15,8 @@ MongoDB enforces no schemas! Documents dont have to use the same schema inside o
 - Timestamp
 - Embedded document
 - Array
+
+We can have realtions using 
+
+1. Nested /Embedded Documents
+2. References
